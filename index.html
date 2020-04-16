@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portafolios</title>
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <link rel="stylesheet" href="fas/css/all.css">
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+    <div class="fondo">
+        <nav class="navbar navbar-expand-md navbar-light bg-dark">
+            <a class="navbar-brand text-light mr-1" data-scroll href="#"><strong>Luis Rivas</strong></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#hola"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon text-light"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="hola">
+              <ul class="navbar-nav float-left">
+                <li class="nav-item active">
+                  <a class="nav-link text-light" data-scroll href="#about">About me<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-primary" data-scroll href="#project">Proyectos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light" data-scroll href="#footer">Contáctame</a>
+                </li>
+              </ul>
+            </div>
+        </nav>
+
+
+
+        <div class="container">
+          <div class="row" id="logo">
+            <div class="col-3"></div>
+            <div class="col-lg-8">
+              <div class="text-center display-2 m-1">
+              <p class="mr-1" id="title" >Hello, I'm Luis</p>
+              <img src="images/avatar.png" alt="avatar" id="img1"/>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-5">
+            <div class="col-md-7" id="about">
+                    <div class="card">
+                                    <div class="card-header bg-dark text-light">
+                                      <span class="display-4">Programador Front-End</span>
+                                    </div>
+                                    <div class="card-body">
+                                      <p class="justify-text"><p class="font-weight-bold d-inline">Luis Fernando Rivas Mendez</p>, nací en Maracaibo, Venezuela un <date>16 de Octubre del 1999.</date><br/>
+                                      Soy un joven estudiante de Ingeniería Informática en la URBE, universidad situada en la ciudad donde resido, actualmente me encuentro en la parte final de la carrera.
+                                      </p><br/>
+                                        <h3>Estudios:</h3>
+                                      <div class="justify-text">
+                                          <hr/>
+                                          <div>
+                                          <h5>Universidad Rafael Belloso Chacín</h5>
+                                          <h6 class="font-weight-bold d-inline">Titulo: </h6><span>Ing en Informatica</span><br/>
+                                          <h6 class="font-weight-bold d-inline">Periodo: </h6><span>Ene-2017 / Actualmente</span>
+                                          </div>
+                                          <hr/>
+                      
+                                          <div>
+                                          <h5>Universidad Rafael Belloso Chacín</h5>
+                                          <h6 class="font-weight-bold">Curso JavaScript</h6>
+                                          <h6 class="font-weight-bold d-inline">Duración: </h6><span>40 Horas</span>
+                                          </div>
+                                          <hr/>
+                      
+                                          <div>
+                                          <h5>Universidad Rafael Belloso Chacín</h5>
+                                          <h6 class="font-weight-bold">Curso MS SQLServer Intermedio</h6>
+                                          <h6 class="font-weight-bold d-inline">Duración: </h6><span>42 Horas</span>
+                                          </div>
+                                      </div>
+                                      <hr/>
+                                      <div>
+                                          <h3>Habilidades y conocimientos</h3>
+                                          <div class="row">
+                                              <div class="col-3">
+                                              <ul>
+                                                  <li>JavaScript</li>
+                                                  <li>ReactJS</li>
+                                                  <li>Bootstrap</li>
+                                                  <li>JQuery</li>
+                                                  <li>PHP</li>
+                                                  <li>NodeJS</li>
+                                                  <li>Materialize</li>
+                                              </ul>
+                                              </div>
+                                              <div class="col-4">
+                                                  <ul>
+                                                      <li>C#</li>
+                                                      <li>Java</li>
+                                                      <li>VB.Net</li>
+                                                      <li>MySQL</li>
+                                                      <li>SQLServer</li>
+                                                      <li>Transact SQL</li>
+                                                      <li>Git</li>
+                                                  </ul>
+                                              </div>
+                                          </div>
+                                      </div>
+                                    </div>
+                          </div>
+              <br/><br/>
+            </div>
+            <div class="col-md">
+              <div class="row">
+                <div class="col-md-12" id="project">
+                  <div class="card">
+                        <div class="card-header">
+                            <h4>MasterGym</h4>
+                        </div>
+                        <div class="card-body">
+                            <h5>Descripcion:</h5>
+                            <p>Este sistema fue realizado en JQuery, Bootstrap y algunas herramientas en el diseño, todo eso para el Front-End, el Back-End fue realizado en PHP en conjunto con algunas librerías, la base de datos es MySQL. Consiste en un sistema realizado para la administración de toda la información de un gimnasio, tal como los pagos y los clientes, además de los reportes y exportanción o importación de esta data.</p>
+        
+                            <a href="https://github.com/luisfrm/mastergym" target="_blank">Repositorio en GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 mt-3">
+                  <div class="card">
+                        <div class="card-header">
+                            <h4>systemFact</h4>
+                        </div>
+                        <div class="card-body">
+                            <h5>Descripcion:</h5>
+                            <p>SystemFact es un sistema de ventas de una tienda, fue desarrollado en VB.NET y SQLServer, gran parte de lo funcional está realizado con triggers y procedimientos y se aplica un poco el concepto MVC.</p>
+        
+                            <a href="https://github.com/luisfrm/mastergym" target="_blank">Repositorio en GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+            <div id="footer">
+            <footer class="bg-dark p-3 text-light mt-5">
+            <div class="text-center">
+                <div class="">
+                    <a href="#" class="p-2"><span class="fas fa-arrow-up text-light social"></span></a>
+                    <a target="_blank" href="https://www.linkedin.com/in/luisfrm-99/" class="p-2"><span class="fab fa-linkedin text-light social"></span></a>
+                    <a target="_blank" href="https://instagram.com/luisfrm_" class="p-2"><span class="fab fa-instagram text-light social"></span></a>
+                    <a target="_blank" href="https://github.com/luisfrm?tab=repositories" class="p-2"><span class="fab fa-github text-light social"></span></a>
+                </div>
+                <p class="font-weight-bold d-inline">Email: </p> <span>luisfrm_@outlook.com</span>
+                <br/><span class="far fa-copyright"></span> <p class="d-inline">2020 Todos los derechos reservados.</p>
+            </div>
+        </footer>
+            </div>
+            </div>
+
+    <script src="scripts/jquery-3.3.1.js"></script>
+    <script src="scripts/bootstrap.min.js"></script>
+    <script src="fas/js/all.js"></script>
+    <script src="smooth/smooth-scroll.min.js"></script>
+    <script src="/scripts/index.js"></script>
+</body>
+</html>
